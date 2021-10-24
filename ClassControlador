@@ -1,5 +1,6 @@
 from ClassVista import*
-from ClassModelo import*
+from sys import*
+
 
 class Controlador:
     # El controlador pide a la vista que recupere una cadena
@@ -13,5 +14,5 @@ class Controlador:
     def guardarCadenas(self):
         cadenas = modelo.recuperarCadenas()
         with open('test.txt', 'w') as f:
-        for cadena in cadenas:
-        f.write(cadena)
+            for cadena in cadenas:
+                f.write(cadena)

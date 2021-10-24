@@ -1,4 +1,5 @@
-# El modelo se encarga de la gestión de los datos.
+import sys
+#  modelo se encarga de la gestión de los datos.
 class Modelo:
     def __init__(self):
         self.cadenas = []
@@ -7,7 +8,7 @@ class Modelo:
         self.cadenas.append(cadena)
         # Devuelve la lista de cadenas.
     def recuperarCadenas():
-    return self.cadenas
+        return self.cadenas
     # Los actores MVC son globales en este ejemplo...
     vista = Vista ()
     controlador = Controlador()
