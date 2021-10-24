@@ -1,3 +1,4 @@
+from ClassVisitante import*
 class Visitable:
     def acepta(self, visitante):
     nombre_class = self.__class__.__name__
