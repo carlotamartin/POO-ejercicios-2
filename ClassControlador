@@ -1,3 +1,6 @@
+from ClassVista import*
+from ClassModelo import*
+
 class Controlador:
     # El controlador pide a la vista que recupere una cadena
     # en la entrada estándar, y luego solicita al modelo
