@@ -1,4 +1,4 @@
-from ClassBloque import*
+from Classbloque import*
 from ClassMientrasQue import*
 from ClassMostrar import*
 from ClassSi import*
