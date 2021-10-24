@@ -1,6 +1,7 @@
-from Clase bloque import*
-
-
+from ClassBloque import*
+from ClassMientrasQue import*
+from ClassMostrar import*
+from ClassSi import*
 class Visitante:
     def __init__(self):
         # Indica el nivel actual de tabulación.
@@ -35,4 +36,4 @@ class Visitante:
         def visitaBloque(self, bloque):
         # Se visita cada instrucción del bloque.
         for instruccion in bloque.instrucciones:
-        instruccion.acepta(self)
+            instruccion.acepta(self)
