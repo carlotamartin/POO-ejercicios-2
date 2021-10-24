@@ -1,4 +1,7 @@
 import sys
+from ClassControlador import*
+from ClassVista import Vista
+
 #  modelo se encarga de la gestión de los datos.
 class Modelo:
     def __init__(self):
